@@ -12,4 +12,12 @@ public with sharing class HelloWorld {
     public static String greet() {
         return 'Hello, World!';
     }
+    
+    /**
+     * Prints a text string to debug log.
+     * @param text The string to print
+     */
+    public static void printText(String text) {
+        System.debug(text);
+    }
 }
